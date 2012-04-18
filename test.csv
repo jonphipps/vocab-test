@@ -6,7 +6,7 @@ abridgerExpression,Property,New-Proposed,abridgerExpression,Abridger (Expression
 ,,,,,,,,,,,,
 &&linkage,,,,,,,,,,,,
 &version,&linkageType,&graph_id,&namespace,&commit_id,,,,,,,,
-0.1,rdf,http://rdvocab.info/roles,http://rdvocab.info/roles/,277b89f6eb35a5d68df09c2bf5b3d40c90815435,,,,,,,,
+0.1,rdf,$Id$,,,,,,,,
 ,,,,,,,,,,,,
 &attributeList,&mapTo,,,,,,,,,,,
 type,http://www.w3.org/1999/02/22-rdf-syntax-ns#type,,,,,,,,,,,
