@@ -1,0 +1,24 @@
+# this is a definition of "abridgerExpression"
+# in the namespace "http://rdvocab.info/roles/"
+@prefix rdaroles: <http://rdvocab.info/roles/> .
+@prefix rdafrbr:  <http://rdvocab.info/uri/schema/FRBRentitiesRDA/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix regstat:  <http://metadataregistry.org/uri/RegStatus/> .
+@prefix regap:    <http://metadataregistry.org/uri/profile/RegAp/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix :         <http://rdvocab.info/roles/> .
+
+:abridgerExpression a rdf:Property ;
+   rdfs:isDefinedBy <http://rdvocab.info/roles> ;
+   regap:status     regstat:1002 ;
+   regap:name       "abridgerExpression" ;
+   rdfs:label       "Abridger (Expression)"@en-GB ;
+   rdfs:label       "Abridger (Expression)"@de ;
+   skos:definition  "Note that this definition column does not have a ‟language” attribute in the header.  The 'default' language for this column is specified in the attribute map."@en ;
+   skos:definition  "A person, family, or corporate body contributing to an expression of a work by shortening or condensing the original work but leaving the nature and content of the original work substantially unchanged."@en-GB ;
+   skos:definition  "Eine Person, Familie oder Körperschaft, die eine Expression eines Werkes kürzt oder zusammenfasst, dabei aber das Wesen des Originalwerkes unverändert lässt. "@de ;
+   skos:definition  "An additional definition would be on its own line."@en-GB ;
+   skos:definition  "These definitions are defined as 'en-GB' because that is the default language for this vocabulary. This can be different from the default language of the spreadsheet"@en-GB ;
+   rdfs:domain      rdafrbr:Expression ;
+   rdfs:subClassOf  rdaroles:contributor .
