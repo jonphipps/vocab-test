@@ -1,5 +1,6 @@
 # this is a definition of "abridgerExpression"
 # in the namespace "http://rdvocab.info/roles/"
+
 @prefix rdaroles: <http://rdvocab.info/roles/> .
 @prefix rdafrbr:  <http://rdvocab.info/uri/schema/FRBRentitiesRDA/> .
 @prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
