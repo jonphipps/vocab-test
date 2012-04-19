@@ -1,0 +1,21 @@
+# this is a definition of "abridgerExpression"
+# in the namespace "http://rdvocab.info/roles/"
+# this version contains only entries that contain "de" literals
+
+@prefix rdaroles: <http://rdvocab.info/roles/> .
+@prefix rdafrbr:  <http://rdvocab.info/uri/schema/FRBRentitiesRDA/> .
+@prefix rdf:      <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs:     <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix regstat:  <http://metadataregistry.org/uri/RegStatus/> .
+@prefix regap:    <http://metadataregistry.org/uri/profile/RegAp/> .
+@prefix skos:     <http://www.w3.org/2004/02/skos/core#> .
+@prefix :         <http://rdvocab.info/roles/de> .
+
+:abridgerExpression a rdf:Property ;
+   rdfs:isDefinedBy <http://rdvocab.info/roles> ;
+   regap:status     regstat:1002 ;
+   regap:name       "abridgerExpression" ;
+   rdfs:label       "Abridger (Expression)"@de ;
+   skos:definition  "Eine Person, Familie oder Körperschaft, die eine Expression eines Werkes kürzt oder zusammenfasst, dabei aber das Wesen des Originalwerkes unverändert lässt. "@de ;
+   rdfs:domain      rdafrbr:Expression ;
+   rdfs:subClassOf  rdaroles:contributor .
